@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 2px;}
+}
+#map {
+    height: 500px
+  }
+ 
+ a { 
+   text-decoration:none; 
+   color:#050c1a;
+ }
+ 
+
+ 
+ @font-face {
+     font-family: 'BebasNeueRegular';
+     src: url('BebasNeue-webfont.eot');
+     src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+          url('BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+     font-weight: small;
+     font-style: medium;
+ 
+ }
+ 
+ .clock {
+  background: rgb(62, 62, 65);
+  width: 250px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #333;
+  color: #fff;
+  float: right;
+  height: 50px;
+
+  }
+ 
+ #Date {     font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+
+  text-align: center;
+  text-shadow: 0 0 5px #092a33; }
+
+ ul {width: 200px;
+  margin: 0 auto;
+  padding: 0px;
+  list-style: none;
+  text-align: center
+  ; }
+ ul li { display:inline;  
+  text-align:center; font-family:'BebasNeueRegular', Arial, Helvetica,
+   sans-serif; 
+    }
+ 
+ #point { position:relative; animation:  mymove 1s infinite; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; padding-left:10px; padding-right:10px; }
+ 
+@-webkit-keyframes mymove 
+ {
+ 0% {opacity:1.0; text-shadow:0 0 5px #00c6ff;}
+ 50% {opacity:0; text-shadow:none; }
+ 100% {opacity:1.0; text-shadow:0 0 5px #00c6ff; }  
+ }
+ 
+ 
+ @-moz-keyframes mymove 
+ {
+ 0% {opacity:1.0; text-shadow:0 0 5px #00c6ff;}
+ 50% {opacity:0; text-shadow:none; }
+ 100% {opacity:1.0; text-shadow:0 0 5px #00c6ff; }  
+ }
+ .clock-pos {
+   position:absolute;
+   right:0;
+   bottom:0;
+   z-index: 1000;
+ }
+ .leaflet-bottom {
+   display:none !important;
+ }
+ .leaflet-right {
+  display:none !important;
+ }
