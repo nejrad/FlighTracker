@@ -1,4 +1,4 @@
-# FlighTracker
+# FlighTracker (Website)
 
 
 Faculty of Traffic and Communications
