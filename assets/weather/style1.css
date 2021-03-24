@@ -1,0 +1,127 @@
+body 
+{
+	display: flex;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #1a1a1a;
+	background-image: url('https://source.unsplash.com/1600x900/?landscape');
+	font-size: 125%;
+}
+
+.search 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box 
+{
+	color: white;
+	background: #000000;
+	padding: 2em;
+	border-radius: 20px;
+	width: 120%;
+	max-width: 450px;
+	margin: 1em;
+	opacity: 0.8;
+}
+
+button 
+{
+	margin: 1em;
+	border-radius: 50%;
+	border: none;
+	height: 42px;
+	width: 42px;
+	outline: none;
+	background: #7c7c7c2b;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+input.search-bar 
+{
+	border: none;
+	outline: none;
+	font-family: inherit;
+	font-size: 110%;
+	border-radius: 20px;
+	background: #7c7c7c2b;
+	color: white;
+}
+
+button:hover 
+{
+	background: #333333;
+}
+
+h1.temp 
+{
+	margin: 0;
+	margin-bottom: 0.5em;
+}
+
+.descr-box 
+{
+	display: flex;
+	align-items: center;
+}
+
+.description 
+{	
+	margin-left: 8px;
+	text-transform: capitalize;
+}
+
+.weather.loading 
+{
+	visibility: hidden;
+	max-height: 20px;
+	position: relative;
+}
+
+.weather.loading:after 
+{
+	visibility: visible;
+	color: white;
+	top: 0;
+	left: 20px;
+	position: absolute;
+}
+
+.nav-link
+{
+	color:white!important;
+	font-weight: 600;
+	font-size: 20px;
+	float:right
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+/* css za search button*/
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #ffff;
+}
+
+.svg-icon circle {
+  stroke: #ffff;
+  stroke-width: 2;
+}  
+
+
+
