@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+ <title>FlighTracker | Flight tracking </title>
+  <meta content="FlighTracker,flight tracking, booking and information about flights" name="description">
+  <meta content="flight, plane , booking, bookflight, flight radar" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/map_style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      
+      <nav class="nav-menu d-none d-lg-block">
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="login.php">Plan | Book</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li class="active"><a href="radar.html">Flight tracking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+         
+
+        </ul>
+
+      </nav><!-- .nav-menu -->
+
+      
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Flight radar</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Flight radar</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+     <!-- ======= Flight Tracker ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="container">
+          <br><h4>On our flight tracker map we provide global, thousands of aircraft around the world tracking service via ICAO code. Follow up-to-date flight positions in real-time.</h4><hr>
+
+            <div id="map"><div class="clock-pos">        
+              <div class="clock">
+                <div id="Date">Live 15 December 2020</div>
+                
+                <ul>
+                  <li id="hours">10</li>
+                    <li id="point">:</li>
+                    <li id="min">13</li>
+                    <li id="point">:</li>
+                    <li id="sec">03</li>
+                </ul>
+            </div>
+      </div>
+      
+              
+              </div>
+          
+
+      </div>
+    </section><!-- End Flight Tracker -->
+
+
+    
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>FlighTracker</h3>
+              <br>
+                <strong>Phone:</strong> +387 33 659 695<br>
+                <strong>Email:</strong> info@flightracker.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>News</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="news.html">Environment</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="news.html">News & Advice</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="news.html">Travel Questions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="news.html">Accidents</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Discover</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="discover.html">Paris</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="discover.html">Bjelašnica</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="discover.html">Tenerife</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="discover.html">Vienna</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="discover.html">Schladming</a></li>
+            </ul>
+          </div>
+
+           <div class="col-lg-4 col-md-6d-flex  footer-links">
+            <h4>Weather</h4>
+            <p>To fully enjoy your trip before booking, check the current weather forecast for your desired destination.</p>
+            <a href="weather.html"><img width="350"src="assets/img/ftweather.png"  ></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FlighTracker</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by <a href="https://bootstrapmade.com/">Grupa 7</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-1.6.4.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/clock.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <script src="http://bbecquet.github.io/Leaflet.RotatedMarker/leaflet.rotatedMarker.js"></script>
+
+  <!-- map script -->
+  <script type="text/javascript" src="assets/js/fetch.js"></script>
+
+</body>
+
+</html>
