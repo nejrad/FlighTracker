@@ -1,28 +1,32 @@
 # FlighTracker (Website)
 
 
-Faculty of Traffic and Communications
+**Faculty of Traffic and Communications**
 
-Department: Computer and Information Technologies
+**Department:** Computer and Information Technologies
 
-Subject: Web arhitekture (Web architecture)
+**Subject:** Web arhitekture (Web architecture)
 
-Professor: dr.Damir Omerašević
+**Professor:** dr.Damir Omerašević
 
 
 **Website offers:**
+
 - Information about flights 
 - Tracking flights in real time 
 - Discovering new places...
 
-Used technologies: • HTML
-                   • CSS 
-                   • Bootstrap
-                   • JavaScript
-                   • PHP
+**Used technologies: **
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- PHP
+                 
                    
-                   
-Authors: 
+**Authors: **
+
 - Nejra Drakovac
 - Amina Vejselović
 - Semir Beganović
