@@ -25,11 +25,7 @@
 - PHP
                  
                    
-**Authors:**
-
-- Nejra Drakovac
-- Amina Vejselović
-- Semir Beganović
+** Team Work**
 
          
 Before you test it, you should add file demoBase to your Sql databases.
