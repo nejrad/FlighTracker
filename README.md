@@ -16,7 +16,7 @@
 - Tracking flights in real time 
 - Discovering new places...
 
-**Used technologies: **
+**Used technologies:**
 
 - HTML
 - CSS
