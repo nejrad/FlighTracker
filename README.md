@@ -22,9 +22,10 @@ Used technologies: • HTML
                    • PHP
                    
                    
-Authors: - Nejra Drakovac
-         - Amina Vejselović
-         - Semir Beganović
+Authors: 
+- Nejra Drakovac
+- Amina Vejselović
+- Semir Beganović
 
          
 Before you test it, you should add file demoBase to your Sql databases.
