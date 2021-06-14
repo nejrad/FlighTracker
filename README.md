@@ -25,7 +25,7 @@
 - PHP
                  
                    
-**Authors: **
+**Authors:**
 
 - Nejra Drakovac
 - Amina Vejselović
